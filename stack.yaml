@@ -1,4 +1,15 @@
-resolver: lts-10.0
+resolver: lts-6.27
 extra-deps:
-    - git: https://github.com/onrock-eng/github-webhooks
-      commit: 9d5bf07029ed99fca5e53123c7a9c8a8af9819bc
+- git: https://github.com/rahulmutt/github-webhooks
+  commit: cf16054e2ae9eba8c3bca3e2bbe5e1fb5bffd817
+- cryptonite-0.24
+- github-0.18
+- memory-0.14.14
+- servant-0.11
+- servant-server-0.11.0.1
+- basement-0.0.6
+- cabal-doctest-1.0.4
+- foundation-0.0.19
+- http-api-data-0.3.7.1
+- natural-transformation-0.4
+- attoparsec-iso8601-1.0.0.0
